@@ -1,0 +1,118 @@
+* {
+    font-family: sans-serif;
+}
+#principal {
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+    background-image: url(img/header.jpg);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    display: inline-block;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.princi {
+    font-size: 40px;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.agrupados {
+    display: flex;
+    justify-content: center;
+}
+.tarjeta1 {
+    width: 22%;
+    margin: 20px;
+    text-align: center;
+}
+.tarjeta2 {
+    width: 300px;
+    padding: 0;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border: grey 1px;
+}
+.tarjeta2 img {
+    width:300px;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+.icon img {
+    width: 30px;
+}
+.precio {
+    color: green;
+    font-weight: bold;
+}
+.tarjeta2 h3, .tarjeta2 p, .tarjeta2 .icon, .tarjeta2 button {
+    margin: 10px 20px;
+}
+h3 {
+    font-weight: lighter;
+    font-size: 24px;
+}
+button {
+    background-color: rgb(206, 112, 6);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    width: 87%;
+    font-weight: bolder;
+}
+.ver {
+    background-color: green;
+    width: auto;
+}
+.btn {
+    margin: 0 10%;
+    text-align: right;
+}
+footer {
+    margin: 20px 10%;
+}
+.foot {
+    background-image: url(img/encuentra.jpg);
+    background-size: 100%;
+    height: 200px;
+    color: white;
+    padding: 50px;
+}
+.foot h2{
+    text-align: left;
+}
+.foot button {
+    width: auto;
+    margin: 20px;
+    background-color: orange;
+}
+.nav {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 30px 15px 5px 15px;
+}
+.nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
